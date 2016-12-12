@@ -8,245 +8,46 @@
       "resolved": "https://registry.npmjs.org/async/-/async-1.5.2.tgz"
     },
     "coap": {
-      "version": "0.13.1",
-      "from": "https://registry.npmjs.org/coap/-/coap-0.13.1.tgz",
-      "resolved": "https://registry.npmjs.org/coap/-/coap-0.13.1.tgz",
-      "dependencies": {
-        "bl": {
-          "version": "1.0.2",
-          "from": "https://registry.npmjs.org/bl/-/bl-1.0.2.tgz",
-          "resolved": "https://registry.npmjs.org/bl/-/bl-1.0.2.tgz"
-        },
-        "capitalize": {
-          "version": "1.0.0",
-          "from": "https://registry.npmjs.org/capitalize/-/capitalize-1.0.0.tgz",
-          "resolved": "https://registry.npmjs.org/capitalize/-/capitalize-1.0.0.tgz"
-        },
-        "coap-packet": {
-          "version": "0.1.13",
-          "from": "https://registry.npmjs.org/coap-packet/-/coap-packet-0.1.13.tgz",
-          "resolved": "https://registry.npmjs.org/coap-packet/-/coap-packet-0.1.13.tgz"
-        },
-        "debug": {
-          "version": "2.2.0",
-          "from": "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz",
-          "resolved": "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz",
-          "dependencies": {
-            "ms": {
-              "version": "0.7.1",
-              "from": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz",
-              "resolved": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz"
-            }
-          }
-        },
-        "fastseries": {
-          "version": "1.7.2",
-          "from": "https://registry.npmjs.org/fastseries/-/fastseries-1.7.2.tgz",
-          "resolved": "https://registry.npmjs.org/fastseries/-/fastseries-1.7.2.tgz",
-          "dependencies": {
-            "reusify": {
-              "version": "1.0.1",
-              "from": "https://registry.npmjs.org/reusify/-/reusify-1.0.1.tgz",
-              "resolved": "https://registry.npmjs.org/reusify/-/reusify-1.0.1.tgz"
-            },
-            "xtend": {
-              "version": "4.0.1",
-              "from": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz",
-              "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
-            }
-          }
-        },
-        "lru-cache": {
-          "version": "4.0.0",
-          "from": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.0.tgz",
-          "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.0.tgz",
-          "dependencies": {
-            "pseudomap": {
-              "version": "1.0.2",
-              "from": "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz",
-              "resolved": "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz"
-            },
-            "yallist": {
-              "version": "2.0.0",
-              "from": "https://registry.npmjs.org/yallist/-/yallist-2.0.0.tgz",
-              "resolved": "https://registry.npmjs.org/yallist/-/yallist-2.0.0.tgz"
-            }
-          }
-        },
-        "readable-stream": {
-          "version": "2.0.5",
-          "from": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.5.tgz",
-          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.5.tgz",
-          "dependencies": {
-            "core-util-is": {
-              "version": "1.0.2",
-              "from": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
-              "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
-            },
-            "inherits": {
-              "version": "2.0.1",
-              "from": "inherits@2.0.1"
-            },
-            "isarray": {
-              "version": "0.0.1",
-              "from": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
-              "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
-            },
-            "process-nextick-args": {
-              "version": "1.0.6",
-              "from": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.6.tgz",
-              "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.6.tgz"
-            },
-            "string_decoder": {
-              "version": "0.10.31",
-              "from": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
-              "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
-            },
-            "util-deprecate": {
-              "version": "1.0.2",
-              "from": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
-              "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
-            }
-          }
-        }
-      }
+      "version": "0.17.0",
+      "from": "coap@0.17.0",
+      "resolved": "https://registry.npmjs.org/coap/-/coap-0.17.0.tgz"
     },
     "coap-cli": {
       "version": "0.4.0",
-      "from": "https://registry.npmjs.org/coap-cli/-/coap-cli-0.4.0.tgz",
+      "from": "coap-cli@0.4.0",
       "resolved": "https://registry.npmjs.org/coap-cli/-/coap-cli-0.4.0.tgz",
       "dependencies": {
+        "bl": {
+          "version": "0.9.5",
+          "from": "bl@>=0.9.0 <0.10.0",
+          "resolved": "https://registry.npmjs.org/bl/-/bl-0.9.5.tgz"
+        },
         "coap": {
           "version": "0.12.1",
-          "from": "https://registry.npmjs.org/coap/-/coap-0.12.1.tgz",
-          "resolved": "https://registry.npmjs.org/coap/-/coap-0.12.1.tgz",
-          "dependencies": {
-            "bl": {
-              "version": "0.9.5",
-              "from": "https://registry.npmjs.org/bl/-/bl-0.9.5.tgz",
-              "resolved": "https://registry.npmjs.org/bl/-/bl-0.9.5.tgz"
-            },
-            "capitalize": {
-              "version": "1.0.0",
-              "from": "https://registry.npmjs.org/capitalize/-/capitalize-1.0.0.tgz",
-              "resolved": "https://registry.npmjs.org/capitalize/-/capitalize-1.0.0.tgz"
-            },
-            "coap-packet": {
-              "version": "0.1.13",
-              "from": "https://registry.npmjs.org/coap-packet/-/coap-packet-0.1.13.tgz",
-              "resolved": "https://registry.npmjs.org/coap-packet/-/coap-packet-0.1.13.tgz"
-            },
-            "fastseries": {
-              "version": "1.7.2",
-              "from": "https://registry.npmjs.org/fastseries/-/fastseries-1.7.2.tgz",
-              "resolved": "https://registry.npmjs.org/fastseries/-/fastseries-1.7.2.tgz",
-              "dependencies": {
-                "reusify": {
-                  "version": "1.0.1",
-                  "from": "https://registry.npmjs.org/reusify/-/reusify-1.0.1.tgz",
-                  "resolved": "https://registry.npmjs.org/reusify/-/reusify-1.0.1.tgz"
-                },
-                "xtend": {
-                  "version": "4.0.1",
-                  "from": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz",
-                  "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
-                }
-              }
-            },
-            "lru-cache": {
-              "version": "2.5.2",
-              "from": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.5.2.tgz",
-              "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.5.2.tgz"
-            },
-            "readable-stream": {
-              "version": "1.0.33",
-              "from": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz",
-              "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz",
-              "dependencies": {
-                "core-util-is": {
-                  "version": "1.0.2",
-                  "from": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
-                  "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
-                },
-                "isarray": {
-                  "version": "0.0.1",
-                  "from": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
-                  "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
-                },
-                "string_decoder": {
-                  "version": "0.10.31",
-                  "from": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
-                  "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
-                },
-                "inherits": {
-                  "version": "2.0.1",
-                  "from": "inherits@2.0.1"
-                }
-              }
-            }
-          }
+          "from": "coap@>=0.12.0 <0.13.0",
+          "resolved": "https://registry.npmjs.org/coap/-/coap-0.12.1.tgz"
         },
-        "commander": {
-          "version": "2.9.0",
-          "from": "https://registry.npmjs.org/commander/-/commander-2.9.0.tgz",
-          "resolved": "https://registry.npmjs.org/commander/-/commander-2.9.0.tgz",
-          "dependencies": {
-            "graceful-readlink": {
-              "version": "1.0.1",
-              "from": "https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz",
-              "resolved": "https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz"
-            }
-          }
+        "isarray": {
+          "version": "0.0.1",
+          "from": "isarray@0.0.1",
+          "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
         },
-        "through2": {
-          "version": "2.0.1",
-          "from": "https://registry.npmjs.org/through2/-/through2-2.0.1.tgz",
-          "resolved": "https://registry.npmjs.org/through2/-/through2-2.0.1.tgz",
-          "dependencies": {
-            "readable-stream": {
-              "version": "2.0.5",
-              "from": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.5.tgz",
-              "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.5.tgz",
-              "dependencies": {
-                "core-util-is": {
-                  "version": "1.0.2",
-                  "from": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
-                  "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
-                },
-                "inherits": {
-                  "version": "2.0.1",
-                  "from": "inherits@2.0.1"
-                },
-                "isarray": {
-                  "version": "0.0.1",
-                  "from": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
-                  "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
-                },
-                "process-nextick-args": {
-                  "version": "1.0.6",
-                  "from": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.6.tgz",
-                  "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.6.tgz"
-                },
-                "string_decoder": {
-                  "version": "0.10.31",
-                  "from": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
-                  "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
-                },
-                "util-deprecate": {
-                  "version": "1.0.2",
-                  "from": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
-                  "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
-                }
-              }
-            },
-            "xtend": {
-              "version": "4.0.1",
-              "from": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz",
-              "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
-            }
-          }
+        "lru-cache": {
+          "version": "2.5.2",
+          "from": "lru-cache@>=2.5.0 <2.6.0",
+          "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.5.2.tgz"
+        },
+        "readable-stream": {
+          "version": "1.0.34",
+          "from": "readable-stream@>=1.0.33 <1.1.0",
+          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz"
         }
       }
+    },
+    "coap-packet": {
+      "version": "0.1.13",
+      "from": "coap-packet@>=0.1.12 <0.2.0",
+      "resolved": "https://registry.npmjs.org/coap-packet/-/coap-packet-0.1.13.tgz"
     },
     "command-node": {
       "version": "0.1.1",
